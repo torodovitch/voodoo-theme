@@ -1,6 +1,16 @@
 {
-	"variables": {},
+	"variables": {
+		"$__hightlight": "#ff0000",
+		"$badge_green": "#93ff66",
+		"$dark_blue_background": "#1e2035",
+		"$white": "#fff"
+	},
 	"name": "Voodoo",
-	"colors": {},
+	"colors": {
+		"activityBar.background": "$dark_blue_background",
+		"activityBar.foreground": "$white",
+		"activityBarBadge.background": "$badge_green",
+		"activityBarBadge.foreground": "$dark_blue_background"
+	},
 	"tokenColors": []
 }

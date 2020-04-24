@@ -1,11 +1,6 @@
 {
-	"name": "Voodoo",
     "colors": {
-		"activityBar.background": "#1E2035",
 		"editor.background": "#25273e",
-		"activityBarBadge.background": "#93FF66",
-		"activityBar.foreground": "#fff",
-		"activityBarBadge.foreground": "#1E2035",
 		"tab.inactiveBackground": "#1E2035",
 		"tab.activeBackground": "#25273e",
 		"button.background": "#6e61ff",
