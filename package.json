@@ -1,7 +1,7 @@
 {
-    "name": "voodoo",
-    "displayName": "Voodoo",
-    "description": "A dark, supernatural and neon-inspired theme",
+    "name": "voodoo-fork",
+    "displayName": "Voodoo (fork)",
+    "description": "Forked from liamsheppard/voodoo-theme (https://github.com/liamsheppard/voodoo-theme).",
     "version": "0.7.0",
     "publisher": "liamsheppard",
     "galleryBanner": {
@@ -26,9 +26,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Voodoo",
+                "label": "Voodoo (fork)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Voodoo-color-theme.json"
+                "path": "./themes/voodoo-fork-color-theme.json"
             }
         ]
     },
