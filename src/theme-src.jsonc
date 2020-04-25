@@ -10,9 +10,14 @@
 		"$blue_secondary_background": "#43477066",
 		"$blue_secondary_light": "#515587",
 		"$green_accent": "#93ff66",
+		"$green_accent_focus": "#93ff66dd",
+		"$red_accent": "#ef476f",
+		"$yellow_accent": "#f1d302",
 		"$dark_blue_background": "#1e2035",
 		"$foreground": "#d3d4d9",
-		"$white": "#fff"
+		"$white": "#fff",
+		"$black_hover": "#00000088",
+		"$black_inactive": "#00000044"
 	},
 	"name": "Voodoo",
 	"colors": {
@@ -48,7 +53,18 @@
 		// Scrollbar Control
 		"scrollbarSlider.activeBackground": "$blue_secondary_active",
 		"scrollbarSlider.background": "$blue_secondary_background",
-		"scrollbarSlider.hoverBackground": "$blue_secondary_hover"
+		"scrollbarSlider.hoverBackground": "$blue_secondary_hover",
+
+		// Lists and Trees
+		"list.activeSelectionBackground": "$green_accent",
+		"list.activeSelectionForeground": "$dark_blue_background",
+		"list.focusBackground": "$green_accent_focus",
+		"list.focusForeground": "$dark_blue_background",
+		"list.highlightForeground": "$blue_primary",
+		"list.hoverBackground": "$black_hover",
+		"list.inactiveSelectionBackground": "$black_inactive",
+		"list.errorForeground": "$red_accent",
+		"list.warningForeground": "$yellow_accent"
 	},
 	"tokenColors": []
 }

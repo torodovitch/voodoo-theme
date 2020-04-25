@@ -20,7 +20,16 @@
 		"inputOption.activeBorder": "#93ff66",
 		"scrollbarSlider.activeBackground": "#434770dd",
 		"scrollbarSlider.background": "#43477066",
-		"scrollbarSlider.hoverBackground": "#434770aa"
+		"scrollbarSlider.hoverBackground": "#434770aa",
+		"list.activeSelectionBackground": "#93ff66",
+		"list.activeSelectionForeground": "#1e2035",
+		"list.focusBackground": "#93ff66dd",
+		"list.focusForeground": "#1e2035",
+		"list.highlightForeground": "#6e61ff",
+		"list.hoverBackground": "#00000088",
+		"list.inactiveSelectionBackground": "#00000044",
+		"list.errorForeground": "#ef476f",
+		"list.warningForeground": "#f1d302"
 	},
 	"tokenColors": []
 }
