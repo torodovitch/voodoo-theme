@@ -1,16 +1,26 @@
 {
 	"variables": {
-		"$__hightlight": "#ff0000",
-		"$badge_green": "#93ff66",
+		"$__highlight": "#ff0000",
+		"$blue_accent": "#18a5fc",
+		"$green_accent": "#93ff66",
 		"$dark_blue_background": "#1e2035",
+		"$secondary_blue": "#434770",
 		"$white": "#fff"
 	},
 	"name": "Voodoo",
 	"colors": {
+		// Activity Bar
 		"activityBar.background": "$dark_blue_background",
 		"activityBar.foreground": "$white",
-		"activityBarBadge.background": "$badge_green",
-		"activityBarBadge.foreground": "$dark_blue_background"
+		"activityBarBadge.background": "$green_accent",
+		"activityBarBadge.foreground": "$dark_blue_background",
+
+		// Base Colors
+		"focusBorder": "$secondary_blue",
+		"errorForeground": "$green_accent",
+
+		// Text Colors
+		"textLink.foreground": "$blue_accent"
 	},
 	"tokenColors": []
 }

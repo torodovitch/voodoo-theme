@@ -4,7 +4,10 @@
 		"activityBar.background": "#1e2035",
 		"activityBar.foreground": "#fff",
 		"activityBarBadge.background": "#93ff66",
-		"activityBarBadge.foreground": "#1e2035"
+		"activityBarBadge.foreground": "#1e2035",
+		"focusBorder": "#434770",
+		"errorForeground": "#93ff66",
+		"textLink.foreground": "#18a5fc"
 	},
 	"tokenColors": []
 }
