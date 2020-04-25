@@ -2,9 +2,16 @@
 	"variables": {
 		"$__highlight": "#ff0000",
 		"$blue_accent": "#18a5fc",
+		"$blue_primary": "#6e61ff",
+		"$blue_primary_hover": "#6e61ffdd",
+		"$blue_secondary": "#434770",
+		"$blue_secondary_active": "#434770dd",
+		"$blue_secondary_hover": "#434770aa",
+		"$blue_secondary_background": "#43477066",
+		"$blue_secondary_light": "#515587",
 		"$green_accent": "#93ff66",
 		"$dark_blue_background": "#1e2035",
-		"$secondary_blue": "#434770",
+		"$foreground": "#d3d4d9",
 		"$white": "#fff"
 	},
 	"name": "Voodoo",
@@ -16,11 +23,32 @@
 		"activityBarBadge.foreground": "$dark_blue_background",
 
 		// Base Colors
-		"focusBorder": "$secondary_blue",
+		"focusBorder": "$blue_secondary",
 		"errorForeground": "$green_accent",
 
 		// Text Colors
-		"textLink.foreground": "$blue_accent"
+		"textLink.foreground": "$blue_accent",
+
+		// Button Control
+		"button.background": "$blue_primary",
+		"button.foreground": "$white",
+		"button.hoverBackground": "$blue_primary_hover",
+
+		// Dropdown Control
+		"dropdown.background": "$blue_secondary",
+		"dropdown.border": "$blue_secondary_light",
+		"dropdown.foreground": "$foreground",
+
+		// Input Control
+		"input.background": "$blue_secondary",
+		"input.border": "$blue_secondary",
+		"input.foreground": "$foreground",
+		"inputOption.activeBorder": "$green_accent",
+
+		// Scrollbar Control
+		"scrollbarSlider.activeBackground": "$blue_secondary_active",
+		"scrollbarSlider.background": "$blue_secondary_background",
+		"scrollbarSlider.hoverBackground": "$blue_secondary_hover"
 	},
 	"tokenColors": []
 }

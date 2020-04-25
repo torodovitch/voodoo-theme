@@ -7,7 +7,20 @@
 		"activityBarBadge.foreground": "#1e2035",
 		"focusBorder": "#434770",
 		"errorForeground": "#93ff66",
-		"textLink.foreground": "#18a5fc"
+		"textLink.foreground": "#18a5fc",
+		"button.background": "#6e61ff",
+		"button.foreground": "#fff",
+		"button.hoverBackground": "#6e61ffdd",
+		"dropdown.background": "#434770",
+		"dropdown.border": "#515587",
+		"dropdown.foreground": "#d3d4d9",
+		"input.background": "#434770",
+		"input.border": "#434770",
+		"input.foreground": "#d3d4d9",
+		"inputOption.activeBorder": "#93ff66",
+		"scrollbarSlider.activeBackground": "#434770dd",
+		"scrollbarSlider.background": "#43477066",
+		"scrollbarSlider.hoverBackground": "#434770aa"
 	},
 	"tokenColors": []
 }
