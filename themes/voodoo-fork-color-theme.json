@@ -5,6 +5,8 @@
 		"activityBar.foreground": "#fff",
 		"activityBarBadge.background": "#93ff66",
 		"activityBarBadge.foreground": "#1e2035",
+		"sideBar.background": "#17192b",
+		"sideBarSectionHeader.background": "#17192b",
 		"focusBorder": "#434770",
 		"errorForeground": "#93ff66",
 		"textLink.foreground": "#18a5fc",

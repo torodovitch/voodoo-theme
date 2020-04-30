@@ -14,6 +14,7 @@
 		"$red_accent": "#ef476f",
 		"$yellow_accent": "#f1d302",
 		"$dark_blue_background": "#1e2035",
+		"$darker_blue_background": "#17192b",
 		"$foreground": "#d3d4d9",
 		"$white": "#fff",
 		"$black_hover": "#00000088",
@@ -26,6 +27,10 @@
 		"activityBar.foreground": "$white",
 		"activityBarBadge.background": "$green_accent",
 		"activityBarBadge.foreground": "$dark_blue_background",
+
+		// Side Bar
+		"sideBar.background": "$darker_blue_background",
+		"sideBarSectionHeader.background": "$darker_blue_background",
 
 		// Base Colors
 		"focusBorder": "$blue_secondary",

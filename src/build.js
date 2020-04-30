@@ -31,15 +31,17 @@ async function parseSource() {
 
 	// Colors.
 	const apiKeys = await getApiKeys(THEME_COLOR_REFERENCE_URL).then(body => {
-		const matches = body.match(new RegExp("<li><code>.+?</code>", "g"));
+		const matches = body.match(/<li>\s*(?:<p>)?<code>.+?<\/code>/g);
 
 		if (!matches) {
 			throw new Error(
-				"Couldn't find any matches with <li><code>...</code>, maybe docs have changed?"
+				"Couldn't find any matches with <li>...<code>...</code>, maybe docs have changed?"
 			);
 		}
 
-		return [...matches].map(key => key.replace("<li><code>", "").replace("</code>", ""));
+		return [...matches].map(key =>
+			key.replace(/<li>\s*(?:<p>)?<code>/g, "").replace("</code>", "")
+		);
 	});
 
 	for (let [key, value] of Object.entries(theme.colors)) {
