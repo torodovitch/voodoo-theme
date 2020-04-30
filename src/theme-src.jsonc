@@ -9,11 +9,13 @@
 		"$blue_secondary_hover": "#434770aa",
 		"$blue_secondary_background": "#43477066",
 		"$blue_secondary_light": "#515587",
+		"$blue_tertiary": "#25273e",
 		"$green_accent": "#93ff66",
 		"$green_accent_focus": "#93ff66dd",
 		"$red_accent": "#ef476f",
 		"$yellow_accent": "#f1d302",
 		"$dark_blue_background": "#1e2035",
+		"$dark_blue_background_hover": "#1e203588",
 		"$darker_blue_background": "#17192b",
 		"$foreground": "#d3d4d9",
 		"$white": "#fff",
@@ -69,7 +71,18 @@
 		"list.hoverBackground": "$black_hover",
 		"list.inactiveSelectionBackground": "$black_inactive",
 		"list.errorForeground": "$red_accent",
-		"list.warningForeground": "$yellow_accent"
+		"list.warningForeground": "$yellow_accent",
+
+		// Editor Groups and Tabs
+		"editorGroup.border": "$blue_secondary",
+		"editorGroup.dropBackground": "$dark_blue_background_hover",
+		"editorGroupHeader.tabsBackground": "$dark_blue_background",
+		"editorGroup.emptyBackground": "$dark_blue_background",
+		"tab.activeBackground": "$blue_tertiary",
+		"tab.activeForeground": "$green_accent",
+		"tab.border": "$dark_blue_background",
+		"tab.inactiveBackground": "$dark_blue_background",
+		"tab.inactiveForeground": "$blue_secondary"
 	},
 	"tokenColors": []
 }

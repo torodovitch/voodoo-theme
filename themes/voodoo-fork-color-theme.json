@@ -31,7 +31,16 @@
 		"list.hoverBackground": "#00000088",
 		"list.inactiveSelectionBackground": "#00000044",
 		"list.errorForeground": "#ef476f",
-		"list.warningForeground": "#f1d302"
+		"list.warningForeground": "#f1d302",
+		"editorGroup.border": "#434770",
+		"editorGroup.dropBackground": "#1e203588",
+		"editorGroupHeader.tabsBackground": "#1e2035",
+		"editorGroup.emptyBackground": "#1e2035",
+		"tab.activeBackground": "#25273e",
+		"tab.activeForeground": "#93ff66",
+		"tab.border": "#1e2035",
+		"tab.inactiveBackground": "#1e2035",
+		"tab.inactiveForeground": "#434770"
 	},
 	"tokenColors": []
 }
