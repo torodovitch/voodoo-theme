@@ -138,7 +138,19 @@
 
 		// Diff. Editor Colors
 		"diffEditor.insertedTextBackground": "$green_highlight_background",
-		"diffEditor.removedTextBackground": "$red_highlight_dark"
+		"diffEditor.removedTextBackground": "$red_highlight_dark",
+
+		// Editor Widget Colors
+		"editorWidget.background": "$blue_tertiary",
+		"editorSuggestWidget.background": "$dark_blue_background",
+		"editorSuggestWidget.border": "$dark_blue_background",
+		"editorSuggestWidget.highlightForeground": "$blue_primary",
+		"editorSuggestWidget.selectedBackground": "$blue_tertiary",
+		"editorHoverWidget.background": "$dark_blue_background",
+		"editorHoverWidget.border": "$dark_blue_background",
+		"editorMarkerNavigation.background": "$blue_secondary_lighter",
+		"editorMarkerNavigationError.background": "$red_accent",
+		"editorMarkerNavigationWarning.background": "$yellow_accent"
 	},
 	"tokenColors": []
 }

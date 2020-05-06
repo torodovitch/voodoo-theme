@@ -77,7 +77,17 @@
 		"editorGutter.addedBackground": "#00ea8caa",
 		"editorGutter.deletedBackground": "#ef476faa",
 		"diffEditor.insertedTextBackground": "#00ea8c22",
-		"diffEditor.removedTextBackground": "#ef476f44"
+		"diffEditor.removedTextBackground": "#ef476f44",
+		"editorWidget.background": "#25273e",
+		"editorSuggestWidget.background": "#1e2035",
+		"editorSuggestWidget.border": "#1e2035",
+		"editorSuggestWidget.highlightForeground": "#6e61ff",
+		"editorSuggestWidget.selectedBackground": "#25273e",
+		"editorHoverWidget.background": "#1e2035",
+		"editorHoverWidget.border": "#1e2035",
+		"editorMarkerNavigation.background": "#525889",
+		"editorMarkerNavigationError.background": "#ef476f",
+		"editorMarkerNavigationWarning.background": "#f1d302"
 	},
 	"tokenColors": []
 }

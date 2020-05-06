@@ -8,16 +8,6 @@
 
 		"statusBar.background": "#1E2035",
 		"titleBar.activeBackground": "#1E2035",
-		"editorSuggestWidget.background": "#1E2035",
-		"editorSuggestWidget.border": "#1E2035",
-		"editorHoverWidget.background": "#1E2035",
-		"editorHoverWidget.border": "#1E2035",
-		"editorSuggestWidget.selectedBackground": "#25273e",
-		"editorSuggestWidget.highlightForeground": "#6e61ff",
-		"editorWidget.background": "#25273e",
-		"editorMarkerNavigationError.background": "#EF476F",
-		"editorMarkerNavigationWarning.background": "#F1D302",
-    "editorMarkerNavigation.background": "#525889",
 
 		"panel.border": "#515587",
 		"panelTitle.activeBorder": "#93FF66",
