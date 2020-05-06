@@ -6,6 +6,7 @@
 		"$blue_primary_hover": "#6e61ffdd",
 		"$blue_primary_background": "#6e61ff33",
 		"$blue_primary_highlight": "#6e61ffaa",
+		"$blue_primary_highlight_secondary": "#6e61ff99",
 		"$blue_secondary": "#434770",
 		"$blue_secondary_active": "#434770dd",
 		"$blue_secondary_hover": "#434770aa",
@@ -22,6 +23,7 @@
 		"$green_accent_focus": "#93ff66dd",
 		"$green_accent_background": "#93ff6622",
 		"$green_highlight": "#00ea8caa",
+		"$green_highlight_secondary": "#00ea8c77",
 		"$green_highlight_background": "#00ea8c22",
 		"$red_accent": "#ef476f",
 		"$red_highlight": "#ef476faa",
@@ -158,7 +160,11 @@
 		"peekViewEditorGutter.background": "$dark_blue_background",
 		"peekViewEditor.matchHighlightBackground": "$blue_highlight_background",
 		"peekViewResult.matchHighlightBackground": "$blue_highlight_background",
-		"peekViewTitle.background": "$dark_blue_background"
+		"peekViewTitle.background": "$dark_blue_background",
+
+		// Merge Conflicts
+		"merge.currentHeaderBackground": "$green_highlight_secondary",
+		"merge.incomingHeaderBackground": "$blue_primary_highlight_secondary"
 	},
 	"tokenColors": []
 }

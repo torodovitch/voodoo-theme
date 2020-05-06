@@ -93,7 +93,9 @@
 		"peekViewEditorGutter.background": "#1e2035",
 		"peekViewEditor.matchHighlightBackground": "#3535ff55",
 		"peekViewResult.matchHighlightBackground": "#3535ff55",
-		"peekViewTitle.background": "#1e2035"
+		"peekViewTitle.background": "#1e2035",
+		"merge.currentHeaderBackground": "#00ea8c77",
+		"merge.incomingHeaderBackground": "#6e61ff99"
 	},
 	"tokenColors": []
 }
