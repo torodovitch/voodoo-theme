@@ -1,6 +1,5 @@
 {
     "colors": {
-    "panel.background": "#1E2035",
 
 
 		"pickerGroup.border": "#6e61ff33",
@@ -9,10 +8,6 @@
 		"statusBar.background": "#1E2035",
 		"titleBar.activeBackground": "#1E2035",
 
-		"panel.border": "#515587",
-		"panelTitle.activeBorder": "#93FF66",
-		"panelTitle.activeForeground": "#93FF66",
-		"panelTitle.inactiveForeground": "#525889",
 
 		"debugToolBar.background": "#1E2035",
 

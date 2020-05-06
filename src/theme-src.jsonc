@@ -164,7 +164,14 @@
 
 		// Merge Conflicts
 		"merge.currentHeaderBackground": "$green_highlight_secondary",
-		"merge.incomingHeaderBackground": "$blue_primary_highlight_secondary"
+		"merge.incomingHeaderBackground": "$blue_primary_highlight_secondary",
+
+		// Panel Colors
+		"panel.background": "$dark_blue_background",
+		"panel.border": "$blue_secondary_light",
+		"panelTitle.activeBorder": "$green_accent",
+		"panelTitle.activeForeground": "$green_accent",
+		"panelTitle.inactiveForeground": "$blue_secondary_lighter"
 	},
 	"tokenColors": []
 }

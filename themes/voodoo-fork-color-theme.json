@@ -95,7 +95,12 @@
 		"peekViewResult.matchHighlightBackground": "#3535ff55",
 		"peekViewTitle.background": "#1e2035",
 		"merge.currentHeaderBackground": "#00ea8c77",
-		"merge.incomingHeaderBackground": "#6e61ff99"
+		"merge.incomingHeaderBackground": "#6e61ff99",
+		"panel.background": "#1e2035",
+		"panel.border": "#515587",
+		"panelTitle.activeBorder": "#93ff66",
+		"panelTitle.activeForeground": "#93ff66",
+		"panelTitle.inactiveForeground": "#525889"
 	},
 	"tokenColors": []
 }
