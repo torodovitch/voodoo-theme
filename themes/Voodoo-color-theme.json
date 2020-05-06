@@ -23,17 +23,11 @@
     "gitDecoration.addedResourceForeground": "#93FF66",
     "gitDecoration.ignoredResourceForeground": "#525889",
 
-		"peekViewEditorGutter.background": "#1E2035",
-		"peekView.border": "#1E2035",
-		"peekViewEditor.background": "#1E2035",
-		"peekViewTitle.background": "#1E2035",
 		"extensionButton.prominentBackground": "#6e61ff",
 		"extensionButton.prominentForeground": "#fff",
 		"extensionButton.prominentHoverBackground": "#6e61ffDD",
 
 
-		"peekViewResult.matchHighlightBackground": "#3535FF55",
-		"peekViewEditor.matchHighlightBackground": "#3535FF55",
 
 
 		"merge.currentHeaderBackground": "#00EA8C77",

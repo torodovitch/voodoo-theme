@@ -150,7 +150,15 @@
 		"editorHoverWidget.border": "$dark_blue_background",
 		"editorMarkerNavigation.background": "$blue_secondary_lighter",
 		"editorMarkerNavigationError.background": "$red_accent",
-		"editorMarkerNavigationWarning.background": "$yellow_accent"
+		"editorMarkerNavigationWarning.background": "$yellow_accent",
+
+		// Peek View Colors
+		"peekView.border": "$dark_blue_background",
+		"peekViewEditor.background": "$dark_blue_background",
+		"peekViewEditorGutter.background": "$dark_blue_background",
+		"peekViewEditor.matchHighlightBackground": "$blue_highlight_background",
+		"peekViewResult.matchHighlightBackground": "$blue_highlight_background",
+		"peekViewTitle.background": "$dark_blue_background"
 	},
 	"tokenColors": []
 }

@@ -87,7 +87,13 @@
 		"editorHoverWidget.border": "#1e2035",
 		"editorMarkerNavigation.background": "#525889",
 		"editorMarkerNavigationError.background": "#ef476f",
-		"editorMarkerNavigationWarning.background": "#f1d302"
+		"editorMarkerNavigationWarning.background": "#f1d302",
+		"peekView.border": "#1e2035",
+		"peekViewEditor.background": "#1e2035",
+		"peekViewEditorGutter.background": "#1e2035",
+		"peekViewEditor.matchHighlightBackground": "#3535ff55",
+		"peekViewResult.matchHighlightBackground": "#3535ff55",
+		"peekViewTitle.background": "#1e2035"
 	},
 	"tokenColors": []
 }
