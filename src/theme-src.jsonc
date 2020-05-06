@@ -21,9 +21,11 @@
 		"$green_accent": "#93ff66",
 		"$green_accent_focus": "#93ff66dd",
 		"$green_highlight": "#00ea8caa",
+		"$green_highlight_background": "#00ea8c22",
 		"$green_highlight_dark_background": "#93ff6622",
 		"$red_accent": "#ef476f",
 		"$red_highlight": "#ef476faa",
+		"$red_highlight_dark": "#ef476f44",
 		"$yellow_accent": "#f1d302",
 		"$yellow_highlight": "#f1d302aa",
 		"$dark_blue_background": "#1e2035",
@@ -132,7 +134,11 @@
 		"editorGutter.background": "$blue_tertiary",
 		"editorGutter.modifiedBackground": "$blue_primary_highlight",
 		"editorGutter.addedBackground": "$green_highlight",
-		"editorGutter.deletedBackground": "$red_highlight"
+		"editorGutter.deletedBackground": "$red_highlight",
+
+		// Diff. Editor Colors
+		"diffEditor.insertedTextBackground": "$green_highlight_background",
+		"diffEditor.removedTextBackground": "$red_highlight_dark"
 	},
 	"tokenColors": []
 }

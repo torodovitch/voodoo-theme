@@ -26,8 +26,6 @@
 
 		"debugToolBar.background": "#1E2035",
 
-		"diffEditor.insertedTextBackground": "#00EA8C22",
-		"diffEditor.removedTextBackground": "#EF476F44",
     "gitDecoration.modifiedResourceForeground": "#6e61ff",
     "gitDecoration.deletedResourceForeground": "#EF476F",
     "gitDecoration.untrackedResourceForeground": "#00EA8C",

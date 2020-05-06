@@ -75,7 +75,9 @@
 		"editorGutter.background": "#25273e",
 		"editorGutter.modifiedBackground": "#6e61ffaa",
 		"editorGutter.addedBackground": "#00ea8caa",
-		"editorGutter.deletedBackground": "#ef476faa"
+		"editorGutter.deletedBackground": "#ef476faa",
+		"diffEditor.insertedTextBackground": "#00ea8c22",
+		"diffEditor.removedTextBackground": "#ef476f44"
 	},
 	"tokenColors": []
 }
