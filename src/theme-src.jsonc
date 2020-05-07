@@ -210,7 +210,15 @@
 		"terminal.ansiYellow": "$yellow_accent",
 
 		// Debug
-		"debugToolBar.background": "$dark_blue_background"
+		"debugToolBar.background": "$dark_blue_background",
+
+		// Git Colors
+		"gitDecoration.addedResourceForeground": "$lime_accent",
+		"gitDecoration.modifiedResourceForeground": "$blue_primary",
+		"gitDecoration.deletedResourceForeground": "$red_accent",
+		"gitDecoration.untrackedResourceForeground": "$green_accent",
+		"gitDecoration.ignoredResourceForeground": "$blue_secondary_lighter",
+		"gitDecoration.conflictingResourceForeground": "$yellow_accent"
 	},
 	"tokenColors": []
 }

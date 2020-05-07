@@ -125,7 +125,13 @@
 		"terminal.ansiRed": "#ef476f",
 		"terminal.ansiWhite": "#e5e9f0",
 		"terminal.ansiYellow": "#f1d302",
-		"debugToolBar.background": "#1e2035"
+		"debugToolBar.background": "#1e2035",
+		"gitDecoration.addedResourceForeground": "#93ff66",
+		"gitDecoration.modifiedResourceForeground": "#6e61ff",
+		"gitDecoration.deletedResourceForeground": "#ef476f",
+		"gitDecoration.untrackedResourceForeground": "#00ea8c",
+		"gitDecoration.ignoredResourceForeground": "#525889",
+		"gitDecoration.conflictingResourceForeground": "#f1d302"
 	},
 	"tokenColors": []
 }
