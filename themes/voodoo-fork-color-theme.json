@@ -124,7 +124,8 @@
 		"terminal.ansiMagenta": "#6e61ff",
 		"terminal.ansiRed": "#ef476f",
 		"terminal.ansiWhite": "#e5e9f0",
-		"terminal.ansiYellow": "#f1d302"
+		"terminal.ansiYellow": "#f1d302",
+		"debugToolBar.background": "#1e2035"
 	},
 	"tokenColors": []
 }

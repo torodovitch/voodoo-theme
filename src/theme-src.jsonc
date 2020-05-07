@@ -207,7 +207,10 @@
 		"terminal.ansiMagenta": "$blue_primary",
 		"terminal.ansiRed": "$red_accent",
 		"terminal.ansiWhite": "$foreground_secondary",
-		"terminal.ansiYellow": "$yellow_accent"
+		"terminal.ansiYellow": "$yellow_accent",
+
+		// Debug
+		"debugToolBar.background": "$dark_blue_background"
 	},
 	"tokenColors": []
 }
