@@ -106,7 +106,9 @@
 		"titleBar.activeBackground": "#1e2035",
 		"extensionButton.prominentForeground": "#fff",
 		"extensionButton.prominentBackground": "#6e61ff",
-		"extensionButton.prominentHoverBackground": "#6e61ffdd"
+		"extensionButton.prominentHoverBackground": "#6e61ffdd",
+		"pickerGroup.border": "#6e61ff33",
+		"pickerGroup.foreground": "#525889"
 	},
 	"tokenColors": []
 }

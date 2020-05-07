@@ -183,7 +183,11 @@
 		// Extensions
 		"extensionButton.prominentForeground": "$white",
 		"extensionButton.prominentBackground": "$blue_primary",
-		"extensionButton.prominentHoverBackground": "$blue_primary_hover"
+		"extensionButton.prominentHoverBackground": "$blue_primary_hover",
+
+		// Quick Picker
+		"pickerGroup.border": "$blue_primary_background",
+		"pickerGroup.foreground": "$blue_secondary_lighter"
 	},
 	"tokenColors": []
 }
