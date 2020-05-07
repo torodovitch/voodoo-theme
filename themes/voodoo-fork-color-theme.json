@@ -100,7 +100,9 @@
 		"panel.border": "#515587",
 		"panelTitle.activeBorder": "#93ff66",
 		"panelTitle.activeForeground": "#93ff66",
-		"panelTitle.inactiveForeground": "#525889"
+		"panelTitle.inactiveForeground": "#525889",
+		"statusBar.background": "#1e2035",
+		"statusBar.debuggingBackground": "#ef476f"
 	},
 	"tokenColors": []
 }

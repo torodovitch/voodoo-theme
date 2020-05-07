@@ -171,7 +171,11 @@
 		"panel.border": "$blue_secondary_light",
 		"panelTitle.activeBorder": "$green_accent",
 		"panelTitle.activeForeground": "$green_accent",
-		"panelTitle.inactiveForeground": "$blue_secondary_lighter"
+		"panelTitle.inactiveForeground": "$blue_secondary_lighter",
+
+		// Status Bar Colors
+		"statusBar.background": "$dark_blue_background",
+		"statusBar.debuggingBackground": "$red_accent"
 	},
 	"tokenColors": []
 }

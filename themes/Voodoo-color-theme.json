@@ -5,7 +5,6 @@
 		"pickerGroup.border": "#6e61ff33",
 		"pickerGroup.foreground": "#525889",
 
-		"statusBar.background": "#1E2035",
 		"titleBar.activeBackground": "#1E2035",
 
 
@@ -27,7 +26,6 @@
 
 
 
-		"statusBar.debuggingBackground": "#EF476F",
 
 		"terminal.ansiBlack": "#525889",
 		"terminal.ansiRed": "#EF476F",
