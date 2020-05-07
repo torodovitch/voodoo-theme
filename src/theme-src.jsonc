@@ -175,7 +175,10 @@
 
 		// Status Bar Colors
 		"statusBar.background": "$dark_blue_background",
-		"statusBar.debuggingBackground": "$red_accent"
+		"statusBar.debuggingBackground": "$red_accent",
+
+		// Title Bar Colors
+		"titleBar.activeBackground": "$dark_blue_background"
 	},
 	"tokenColors": []
 }
