@@ -21,22 +21,6 @@
 
 
 
-		"terminal.ansiBlack": "#525889",
-		"terminal.ansiRed": "#EF476F",
-		"terminal.ansiGreen": "#93FF66",
-		"terminal.ansiYellow": "#F1D302",
-		"terminal.ansiBlue": "#18a5fc",
-		"terminal.ansiMagenta": "#6e61ff",
-		"terminal.ansiCyan": "#00EA8C",
-		"terminal.ansiWhite": "#e5e9f0",
-		"terminal.ansiBrightBlack": "#525889",
-		"terminal.ansiBrightRed": "#EF476F",
-		"terminal.ansiBrightGreen": "#93FF66",
-		"terminal.ansiBrightYellow": "#F1D302",
-		"terminal.ansiBrightBlue": "#18a5fc",
-		"terminal.ansiBrightMagenta": "#6e61ff",
-		"terminal.ansiBrightCyan": "#00EA8C",
-		"terminal.ansiBrightWhite": "#e5e9f0"
 	},
 	"tokenColors": [
 		{

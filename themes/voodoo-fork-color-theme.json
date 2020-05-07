@@ -108,7 +108,23 @@
 		"extensionButton.prominentBackground": "#6e61ff",
 		"extensionButton.prominentHoverBackground": "#6e61ffdd",
 		"pickerGroup.border": "#6e61ff33",
-		"pickerGroup.foreground": "#525889"
+		"pickerGroup.foreground": "#525889",
+		"terminal.ansiBlack": "#525889",
+		"terminal.ansiBlue": "#18a5fc",
+		"terminal.ansiBrightBlack": "#525889",
+		"terminal.ansiBrightBlue": "#18a5fc",
+		"terminal.ansiBrightCyan": "#00ea8c",
+		"terminal.ansiBrightGreen": "#93ff66",
+		"terminal.ansiBrightMagenta": "#6e61ff",
+		"terminal.ansiBrightRed": "#ef476f",
+		"terminal.ansiBrightWhite": "#e5e9f0",
+		"terminal.ansiBrightYellow": "#f1d302",
+		"terminal.ansiCyan": "#00ea8c",
+		"terminal.ansiGreen": "#93ff66",
+		"terminal.ansiMagenta": "#6e61ff",
+		"terminal.ansiRed": "#ef476f",
+		"terminal.ansiWhite": "#e5e9f0",
+		"terminal.ansiYellow": "#f1d302"
 	},
 	"tokenColors": []
 }

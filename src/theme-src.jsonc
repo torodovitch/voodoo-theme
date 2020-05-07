@@ -19,9 +19,10 @@
 		"$blue_highlight_tertiary": "#3535ffaa",
 		"$blue_highlight_background": "#3535ff55",
 		"$blue_highlight_background_strong": "#3535ff99",
-		"$green_accent": "#93ff66",
-		"$green_accent_focus": "#93ff66dd",
-		"$green_accent_background": "#93ff6622",
+		"$lime_accent": "#93ff66",
+		"$lime_accent_focus": "#93ff66dd",
+		"$lime_accent_background": "#93ff6622",
+		"$green_accent": "#00ea8c",
 		"$green_highlight": "#00ea8caa",
 		"$green_highlight_secondary": "#00ea8c77",
 		"$green_highlight_background": "#00ea8c22",
@@ -35,6 +36,7 @@
 		"$darker_blue_background": "#17192b",
 		"$foreground": "#d3d4d9",
 		"$foreground_highlight": "#d3d4d9aa",
+		"$foreground_secondary": "#e5e9f0",
 		"$white": "#fff",
 		"$black_hover": "#00000088",
 		"$black_inactive": "#00000044"
@@ -44,7 +46,7 @@
 		// Activity Bar
 		"activityBar.background": "$dark_blue_background",
 		"activityBar.foreground": "$white",
-		"activityBarBadge.background": "$green_accent",
+		"activityBarBadge.background": "$lime_accent",
 		"activityBarBadge.foreground": "$dark_blue_background",
 
 		// Side Bar
@@ -53,7 +55,7 @@
 
 		// Base Colors
 		"focusBorder": "$blue_secondary",
-		"errorForeground": "$green_accent",
+		"errorForeground": "$lime_accent",
 
 		// Text Colors
 		"textLink.foreground": "$blue_accent",
@@ -72,7 +74,7 @@
 		"input.background": "$blue_secondary",
 		"input.border": "$blue_secondary",
 		"input.foreground": "$foreground",
-		"inputOption.activeBorder": "$green_accent",
+		"inputOption.activeBorder": "$lime_accent",
 
 		// Scrollbar Control
 		"scrollbarSlider.activeBackground": "$blue_secondary_active",
@@ -80,9 +82,9 @@
 		"scrollbarSlider.hoverBackground": "$blue_secondary_hover",
 
 		// Lists and Trees
-		"list.activeSelectionBackground": "$green_accent",
+		"list.activeSelectionBackground": "$lime_accent",
 		"list.activeSelectionForeground": "$dark_blue_background",
-		"list.focusBackground": "$green_accent_focus",
+		"list.focusBackground": "$lime_accent_focus",
 		"list.focusForeground": "$dark_blue_background",
 		"list.highlightForeground": "$blue_primary",
 		"list.hoverBackground": "$black_hover",
@@ -96,7 +98,7 @@
 		"editorGroupHeader.tabsBackground": "$dark_blue_background",
 		"editorGroup.emptyBackground": "$dark_blue_background",
 		"tab.activeBackground": "$blue_tertiary",
-		"tab.activeForeground": "$green_accent",
+		"tab.activeForeground": "$lime_accent",
 		"tab.border": "$dark_blue_background",
 		"tab.inactiveBackground": "$dark_blue_background",
 		"tab.inactiveForeground": "$blue_secondary",
@@ -105,7 +107,7 @@
 		"editor.background": "$blue_tertiary",
 		"editor.foreground": "$foreground",
 		"editorLineNumber.foreground": "$blue_secondary",
-		"editorCursor.foreground": "$green_accent",
+		"editorCursor.foreground": "$lime_accent",
 		"editor.selectionBackground": "$blue_highlight",
 		"editor.selectionHighlightBackground": "$blue_highlight_background",
 		"editor.wordHighlightBackground": "$blue_highlight_background",
@@ -113,7 +115,7 @@
 		"editor.findMatchBackground": "$blue_highlight_secondary",
 		"editor.findMatchHighlightBackground": "$blue_highlight_background",
 		"editor.findRangeHighlightBackground": "$blue_highlight_background",
-		"editor.hoverHighlightBackground": "$green_accent_background",
+		"editor.hoverHighlightBackground": "$lime_accent_background",
 		"editor.lineHighlightBackground": "$dark_blue_background",
 		"editor.lineHighlightBorder": "$dark_blue_background",
 		"editorLink.activeForeground": "$blue_primary",
@@ -169,8 +171,8 @@
 		// Panel Colors
 		"panel.background": "$dark_blue_background",
 		"panel.border": "$blue_secondary_light",
-		"panelTitle.activeBorder": "$green_accent",
-		"panelTitle.activeForeground": "$green_accent",
+		"panelTitle.activeBorder": "$lime_accent",
+		"panelTitle.activeForeground": "$lime_accent",
 		"panelTitle.inactiveForeground": "$blue_secondary_lighter",
 
 		// Status Bar Colors
@@ -187,7 +189,25 @@
 
 		// Quick Picker
 		"pickerGroup.border": "$blue_primary_background",
-		"pickerGroup.foreground": "$blue_secondary_lighter"
+		"pickerGroup.foreground": "$blue_secondary_lighter",
+
+		// Integrated Terminal Colors
+		"terminal.ansiBlack": "$blue_secondary_lighter",
+		"terminal.ansiBlue": "$blue_accent",
+		"terminal.ansiBrightBlack": "$blue_secondary_lighter",
+		"terminal.ansiBrightBlue": "$blue_accent",
+		"terminal.ansiBrightCyan": "$green_accent",
+		"terminal.ansiBrightGreen": "$lime_accent",
+		"terminal.ansiBrightMagenta": "$blue_primary",
+		"terminal.ansiBrightRed": "$red_accent",
+		"terminal.ansiBrightWhite": "$foreground_secondary",
+		"terminal.ansiBrightYellow": "$yellow_accent",
+		"terminal.ansiCyan": "$green_accent",
+		"terminal.ansiGreen": "$lime_accent",
+		"terminal.ansiMagenta": "$blue_primary",
+		"terminal.ansiRed": "$red_accent",
+		"terminal.ansiWhite": "$foreground_secondary",
+		"terminal.ansiYellow": "$yellow_accent"
 	},
 	"tokenColors": []
 }
