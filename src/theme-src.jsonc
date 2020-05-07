@@ -178,7 +178,12 @@
 		"statusBar.debuggingBackground": "$red_accent",
 
 		// Title Bar Colors
-		"titleBar.activeBackground": "$dark_blue_background"
+		"titleBar.activeBackground": "$dark_blue_background",
+
+		// Extensions
+		"extensionButton.prominentForeground": "$white",
+		"extensionButton.prominentBackground": "$blue_primary",
+		"extensionButton.prominentHoverBackground": "$blue_primary_hover"
 	},
 	"tokenColors": []
 }
