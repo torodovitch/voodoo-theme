@@ -133,5 +133,25 @@
 		"gitDecoration.ignoredResourceForeground": "#525889",
 		"gitDecoration.conflictingResourceForeground": "#f1d302"
 	},
-	"tokenColors": []
+	"tokenColors": [
+		{ "name": "Comments", "scope": "comment", "settings": { "foreground": "#515587" } },
+		{ "name": "Strings", "scope": "string", "settings": { "foreground": "#93ff66" } },
+		{ "name": "Numbers", "scope": "constant.numeric", "settings": { "foreground": "#f1d302" } },
+		{ "name": "Storage", "scope": "storage", "settings": { "foreground": "#6e61ff" } },
+		{
+			"name": "Storage Types",
+			"scope": "storage.type",
+			"settings": { "fontStyle": "italic", "foreground": "#6e61ff" }
+		},
+		{
+			"name": "Built-in Constants",
+			"scope": "constant.language",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "User-defined Constants",
+			"scope": ["constant.character", "constant.other"],
+			"settings": { "foreground": "#ef476f" }
+		}
+	]
 }

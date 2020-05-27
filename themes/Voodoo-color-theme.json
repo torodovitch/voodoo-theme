@@ -17,60 +17,6 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Comments",
-			"scope": "comment",
-			"settings": {
-				"foreground": "#515587"
-			}
-		},
-		{
-			"name": "Strings",
-			"scope": "string",
-			"settings": {
-				"foreground": "#93FF66"
-			}
-		},
-		{
-			"name": "Numbers",
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#F1D302"
-			}
-		},
-		{
-			"name": "Built-in constants",
-			"scope": "constant.language",
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "User-defined constants",
-			"scope": [
-				"constant.character",
-				"constant.other"
-			],
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#6e61ff"
-			}
-		},
-		{
-			"name": "Storage types",
-			"scope": "storage.type",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#6e61ff"
-			}
-		},
-		{
 			"name": "Class names",
 			"scope": [
 				"entity.name.class",

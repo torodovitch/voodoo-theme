@@ -220,5 +220,56 @@
 		"gitDecoration.ignoredResourceForeground": "$blue_secondary_lighter",
 		"gitDecoration.conflictingResourceForeground": "$yellow_accent"
 	},
-	"tokenColors": []
+	"tokenColors": [
+		// Standard Tokens
+		{
+			"name": "Comments",
+			"scope": "comment",
+			"settings": {
+				"foreground": "$blue_secondary_light"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "$lime_accent"
+			}
+		},
+		// Generic Scopes
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "Storage Types",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "Built-in Constants",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "User-defined Constants",
+			"scope": ["constant.character", "constant.other"],
+			"settings": { "foreground": "$red_accent" }
+		}
+	]
 }
