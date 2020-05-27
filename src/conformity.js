@@ -91,6 +91,10 @@ async function getColorsFrom(file) {
 			foreground: element.settings.foreground,
 		};
 
+		if (settings.foreground != undefined) {
+			settings.foreground = normalizeHexColour(settings.foreground);
+		}
+
 		if (!Array.isArray(element.scope)) {
 			tokens.push({ scope: element.scope, settings: settings });
 		} else {
@@ -121,9 +125,12 @@ async function getColorsFrom(file) {
 		const found = testedColors.colors.find((x) => x.key == color.key);
 
 		if (!found) {
-			logs.push(["error", `'${color.key}' is missing from \"${TESTED_FILE}\".`]);
+			logs.push(["error", `\"${color.key}\" is missing from \"${TESTED_FILE}\".`]);
 		} else if (found.value != color.value) {
-			logs.push(["warn", `'${color.key}' is ${found.value} instead of ${color.value}.`]);
+			logs.push([
+				"warn",
+				`\"${color.key}\" is \"${found.value}\" instead of \"${color.value}\".`,
+			]);
 		}
 	});
 
@@ -154,17 +161,20 @@ async function getColorsFrom(file) {
 		const found = testedColors.tokens.find((x) => x.scope == token.scope);
 
 		if (!found) {
-			logs.push(["error", `'${token.scope}' is missing from \"${TESTED_FILE}\".`]);
-		} else if (found.settings.fontStyle != token.settings.fontStyle) {
-			logs.push([
-				"warn",
-				`'${token.scope}' is ${found.settings.fontStyle} instead of ${token.settings.fontStyle}.`,
-			]);
-		} else if (found.settings.foreground != token.settings.foreground) {
-			logs.push([
-				"warn",
-				`'${token.scope}' is ${found.settings.foreground} instead of ${token.settings.foreground}.`,
-			]);
+			logs.push(["error", `\"${token.scope}\" is missing from \"${TESTED_FILE}\".`]);
+		} else {
+			if (found.settings.fontStyle != token.settings.fontStyle) {
+				logs.push([
+					"warn",
+					`\"${token.scope}\"'s font style is \"${found.settings.fontStyle}\" instead of \"${token.settings.fontStyle}\".`,
+				]);
+			}
+			if (found.settings.foreground != token.settings.foreground) {
+				logs.push([
+					"warn",
+					`\"${token.scope}\"'s foreground is \"${found.settings.foreground}\" instead of \"${token.settings.foreground}\".`,
+				]);
+			}
 		}
 	});
 
