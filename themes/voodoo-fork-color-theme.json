@@ -152,6 +152,46 @@
 			"name": "User-defined Constants",
 			"scope": ["constant.character", "constant.other"],
 			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "Class Names",
+			"scope": ["entity.name.class", "entity.name.type"],
+			"settings": { "fontStyle": "italic", "foreground": "#ef476f" }
+		},
+		{
+			"name": "Inherited Class",
+			"scope": "entity.other.inherited-class",
+			"settings": { "fontStyle": "italic", "foreground": "#ef476f" }
+		},
+		{
+			"name": "Tag Names",
+			"scope": "entity.name.tag",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "Tag Attributes",
+			"scope": "entity.other.attribute-name",
+			"settings": { "fontStyle": "italic", "foreground": "#6e61ff" }
+		},
+		{
+			"name": "Function Names",
+			"scope": "entity.name.function",
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "Library Functions",
+			"scope": "support.function",
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "Library Constants",
+			"scope": "support.constant",
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "Library Classes and Types",
+			"scope": ["support.type", "support.class"],
+			"settings": { "foreground": "#00ea8c" }
 		}
 	]
 }

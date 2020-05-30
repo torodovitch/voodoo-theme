@@ -236,6 +236,7 @@
 				"foreground": "$lime_accent"
 			}
 		},
+
 		// Generic Scopes
 		{
 			"name": "Numbers",
@@ -270,6 +271,65 @@
 			"name": "User-defined Constants",
 			"scope": ["constant.character", "constant.other"],
 			"settings": { "foreground": "$red_accent" }
+		},
+		{
+			"name": "Class Names",
+			"scope": ["entity.name.class", "entity.name.type"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "Inherited Class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "Tag Names",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "Tag Attributes",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "Function Names",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "Library Functions",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "Library Constants",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "Library Classes and Types",
+			"scope": ["support.type", "support.class"],
+			"settings": {
+				"foreground": "$green_accent"
+			}
 		}
 	]
 }
