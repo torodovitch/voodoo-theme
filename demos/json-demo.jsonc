@@ -1,0 +1,25 @@
+{
+	/**
+	 * When building using this JSONC file, the resulting theme should
+	 * only contain "name", "colors" with "myRandom.testProperty" set to
+	 * $test_var's value and "tokenColors" as empty array.
+	 */
+	"variables": {
+		"$test_var": "#ff0000"
+	},
+	"name": "build.js exception tests",
+	// The theme source uses JSON with comments, should parse anyway.
+	"colors": {
+		"activityBar.background": "#ff0000", // Invalid colour variable in "colors"
+		"myRandom.testProperty": "$test_var" // Not found in API, logs a warning
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": {
+				"foreground": "#ff0000" // Invalid colour variable in "tokenColors"
+			}
+		}
+	]
+}
