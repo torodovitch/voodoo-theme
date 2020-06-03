@@ -192,6 +192,43 @@
 			"name": "Library Classes and Types",
 			"scope": ["support.type", "support.class"],
 			"settings": { "foreground": "#00ea8c" }
+		},
+		{
+			"name": "[Shell] Control",
+			"scope": "source.shell keyword.control",
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[Shell] Operator",
+			"scope": "source.shell keyword.operator",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Shell] String Variable",
+			"scope": [
+				"source.shell string variable.other.bracket",
+				"source.shell string string.interpolated.dollar"
+			],
+			"settings": { "foreground": "#d3d4d9" }
+		},
+		{
+			"name": "[Shell] String Bracket",
+			"scope": [
+				"source.shell punctuation.definition",
+				"source.shell string variable.other.bracket punctuation.definition",
+				"source.shell string string.interpolated.dollar punctuation.definition"
+			],
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Shell] Newline",
+			"scope": "source.shell constant.character.escape.newline",
+			"settings": { "foreground": "#515587" }
+		},
+		{
+			"name": "[Shell] Comment",
+			"scope": "source.shell punctuation.definition.comment",
+			"settings": { "foreground": "#515587" }
 		}
 	]
 }

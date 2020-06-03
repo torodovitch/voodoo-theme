@@ -330,6 +330,57 @@
 			"settings": {
 				"foreground": "$green_accent"
 			}
+		},
+
+		// Shell
+		{
+			"name": "[Shell] Control",
+			"scope": "source.shell keyword.control",
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Shell] Operator",
+			"scope": "source.shell keyword.operator",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Shell] String Variable",
+			"scope": [
+				"source.shell string variable.other.bracket",
+				"source.shell string string.interpolated.dollar"
+			],
+			"settings": {
+				"foreground": "$foreground"
+			}
+		},
+		{
+			"name": "[Shell] String Bracket",
+			"scope": [
+				"source.shell punctuation.definition",
+				"source.shell string variable.other.bracket punctuation.definition",
+				"source.shell string string.interpolated.dollar punctuation.definition"
+			],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Shell] Newline",
+			"scope": "source.shell constant.character.escape.newline",
+			"settings": {
+				"foreground": "$blue_secondary_light"
+			}
+		},
+		{
+			"name": "[Shell] Comment",
+			"scope": "source.shell punctuation.definition.comment",
+			"settings": {
+				"foreground": "$blue_secondary_light"
+			}
 		}
 	]
 }

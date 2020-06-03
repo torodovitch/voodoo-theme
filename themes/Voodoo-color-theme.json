@@ -524,41 +524,6 @@
 		},
 
 		{
-			"name": "[Shell] Control",
-			"scope": "source.shell keyword.control",
-			"settings": {
-				"foreground": "#6e61ff"
-			}
-		},
-		{
-			"name": "[Shell] Operators",
-			"scope": "source.shell keyword.operator",
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "[Shell] String Variable",
-			"scope": [
-				"source.shell string variable.other.bracket",
-				"source.shell string string.interpolated.dollar"
-			],
-			"settings": {
-				"foreground": "#D3D4D9"
-			}
-		},
-		{
-			"name": "[Shell] String Brackets",
-			"scope": [
-				"source.shell punctuation.definition",
-				"source.shell string variable.other.bracket punctuation.definition",
-				"source.shell string string.interpolated.dollar punctuation.definition"
-			],
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
 			"name": "[Shell] Shebang",
 			"scope": "source.shell comment.line.shebang",
 			"settings": {
@@ -572,19 +537,5 @@
 				"foreground": "#EF476F"
 			}
 		},
-		{
-			"name": "[Shell] Newline",
-			"scope": "source.shell constant.character.escape.newline",
-			"settings": {
-				"foreground": "#515587"
-			}
-		},
-		{
-			"name": "[Shell] Comment",
-			"scope": "source.shell punctuation.definition.comment",
-			"settings": {
-				"foreground": "#515587"
-			}
-		}
 	]
 }
