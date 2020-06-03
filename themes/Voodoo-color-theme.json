@@ -523,19 +523,5 @@
 			}
 		},
 
-		{
-			"name": "[Shell] Shebang",
-			"scope": "source.shell comment.line.shebang",
-			"settings": {
-				"foreground": "#F1D302"
-			}
-		},
-		{
-			"name": "[Shell] Shebang Hash",
-			"scope": "source.shell punctuation.definition.comment.line.shebang",
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
 	]
 }

@@ -369,6 +369,20 @@
 			}
 		},
 		{
+			"name": "[Shell] Shebang",
+			"scope": "source.shell comment.line.number-sign.shebang.shell",
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "[Shell] Shebang Hash",
+			"scope": "source.shell punctuation.definition.comment.shebang.shell",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
 			"name": "[Shell] Newline",
 			"scope": "source.shell constant.character.escape.newline",
 			"settings": {

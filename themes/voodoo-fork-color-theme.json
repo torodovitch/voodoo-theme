@@ -221,6 +221,16 @@
 			"settings": { "foreground": "#ef476f" }
 		},
 		{
+			"name": "[Shell] Shebang",
+			"scope": "source.shell comment.line.number-sign.shebang.shell",
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "[Shell] Shebang Hash",
+			"scope": "source.shell punctuation.definition.comment.shebang.shell",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
 			"name": "[Shell] Newline",
 			"scope": "source.shell constant.character.escape.newline",
 			"settings": { "foreground": "#515587" }
