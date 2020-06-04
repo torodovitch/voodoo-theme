@@ -332,6 +332,103 @@
 			}
 		},
 
+		// Javascript
+		{
+			"name": "[Javascript] Try Catch",
+			"scope": "keyword.control.trycatch",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Javascript] Debugger",
+			"scope": "keyword.other.debugger",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Javascript] Punctuation and Comparison",
+			"scope": [
+				"keyword.operator.logical",
+				"keyword.operator.relational",
+				"keyword.operator.comparison"
+			],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Javascript] Console Log/Warn/Error",
+			"scope": "support.function.console",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Javascript] Meta Object-Literal Key",
+			"scope": "meta.object-literal.key",
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+		{
+			"name": "[Javascript] JSDoc",
+			"scope": "storage.type.class.jsdoc",
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+		{
+			"name": "[Javascript] Support Type Primitive",
+			"scope": "support.type.primitive",
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Javascript] Default, Export and Import",
+			"scope": ["keyword.control.default", "keyword.control.export", "meta.import"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Javascript] Imported Objects",
+			"scope": "meta.import variable.other.readwrite.alias",
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+		{
+			"name": "[Javascript] If Else, Switch, Return",
+			"scope": [
+				"keyword.control.conditional",
+				"keyword.control.switch",
+				"keyword.control.flow"
+			],
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Javascript] This",
+			"scope": "variable.language.this",
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Javascript] Loop Continue/Break",
+			"scope": "keyword.control.loop",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+
 		// Shell
 		{
 			"name": "[Shell] Control",
