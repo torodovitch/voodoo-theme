@@ -127,38 +127,10 @@
 		},
 
 		{
-			"name": "[JavaScript] String Interpolation Punctuation",
-			"scope":	"meta.template.expression",
-			"settings": {
-				"foreground": "#D3D4D9"
-			}
-		},
-		{
-			"name": "[JavaScript] String Interpolation Punctuation",
-			"scope": [
-				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end"
-			],
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
 			"name": "[JavaScript] Object Definition",
 			"scope": "meta.object.type meta.definition.property",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#F1D302"
-			}
-		},
-		{
-			"name": "[Javascript] Regex",
-			"scope": [
-				"string.regexp",
-				"constant.other.character-class.regexp",
-				"constant.other.character-class.set.regexp"
-			],
-			"settings": {
 				"foreground": "#F1D302"
 			}
 		},
@@ -170,23 +142,6 @@
       ],
 			"settings": {
 				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "[Javascript] Regex Punctuation",
-			"scope": "string.regexp punctuation",
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "[Javascript] Regex Special Characters",
-			"scope": [
-				"string.regexp keyword.control.anchor",
-				"string.regexp keyword.operator"
-			],
-			"settings": {
-				"foreground": "#6e61ff"
 			}
 		},
 		{

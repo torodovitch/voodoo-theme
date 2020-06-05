@@ -428,6 +428,55 @@
 				"foreground": "$red_accent"
 			}
 		},
+		{
+			"name": "[Javascript] Formatted String Expression",
+			"scope": "meta.template.expression",
+			"settings": {
+				"foreground": "$foreground"
+			}
+		},
+		{
+			"name": "[Javascript] Formatted String Expression Punctuation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end"
+			],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Javascript] Object Definition",
+			"scope": "meta.object.type meta.definition.property",
+			"settings": {
+				"foreground": "$__highlight"
+			}
+		},
+		{
+			"name": "[Javascript] Regex",
+			"scope": [
+				"string.regexp",
+				"constant.other.character-class.regexp",
+				"constant.other.character-class.set.regexp"
+			],
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "[Javascript] Regex Punctuation",
+			"scope": "string.regexp punctuation",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Javascript] Regex Operator and Quantifier",
+			"scope": ["string.regexp keyword.control.anchor", "string.regexp keyword.operator"],
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
 
 		// Shell
 		{

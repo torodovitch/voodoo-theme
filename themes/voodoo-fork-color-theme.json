@@ -262,6 +262,38 @@
 			"settings": { "foreground": "#ef476f" }
 		},
 		{
+			"name": "[Javascript] Formatted String Expression",
+			"scope": "meta.template.expression",
+			"settings": { "foreground": "#d3d4d9" }
+		},
+		{
+			"name": "[Javascript] Formatted String Expression Punctuation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end"
+			],
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Javascript] Regex",
+			"scope": [
+				"string.regexp",
+				"constant.other.character-class.regexp",
+				"constant.other.character-class.set.regexp"
+			],
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "[Javascript] Regex Punctuation",
+			"scope": "string.regexp punctuation",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Javascript] Regex Operator and Quantifier",
+			"scope": ["string.regexp keyword.control.anchor", "string.regexp keyword.operator"],
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
 			"name": "[Shell] Control",
 			"scope": "source.shell keyword.control",
 			"settings": { "foreground": "#6e61ff" }
