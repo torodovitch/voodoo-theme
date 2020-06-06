@@ -24,10 +24,12 @@
 		"$lime_accent_background": "#93ff6622",
 		"$green_accent": "#00ea8c",
 		"$green_highlight": "#00ea8caa",
-		"$green_highlight_secondary": "#00ea8c77",
+		"$green_highlight_secondary": "#00ea8c99",
+		"$green_highlight_tertiary": "#00ea8c77",
 		"$green_highlight_background": "#00ea8c22",
 		"$red_accent": "#ef476f",
 		"$red_highlight": "#ef476faa",
+		"$red_highlight_secondary": "#ef476f99",
 		"$red_highlight_dark": "#ef476f44",
 		"$yellow_accent": "#f1d302",
 		"$yellow_highlight": "#f1d302aa",
@@ -165,7 +167,7 @@
 		"peekViewTitle.background": "$dark_blue_background",
 
 		// Merge Conflicts
-		"merge.currentHeaderBackground": "$green_highlight_secondary",
+		"merge.currentHeaderBackground": "$green_highlight_tertiary",
 		"merge.incomingHeaderBackground": "$blue_primary_highlight_secondary",
 
 		// Panel Colors
@@ -382,6 +384,27 @@
 			}
 		},
 		{
+			"name": "[Javascript] JSDoc @param",
+			"scope": "comment.block.documentation.js storage.type.class.jsdoc",
+			"settings": {
+				"foreground": "$green_highlight_secondary"
+			}
+		},
+		{
+			"name": "[Javascript] JSDoc @param's {type}",
+			"scope": "comment.block.documentation.js entity.name.type.instance.jsdoc",
+			"settings": {
+				"foreground": "$red_highlight_secondary"
+			}
+		},
+		{
+			"name": "[Javascript] JSDoc Other",
+			"scope": "comment.block.documentation.js variable.other.jsdoc",
+			"settings": {
+				"foreground": "$__highlight"
+			}
+		},
+		{
 			"name": "[Javascript] Support Type Primitive",
 			"scope": "support.type.primitive",
 			"settings": {
@@ -471,8 +494,22 @@
 			}
 		},
 		{
-			"name": "[Javascript] Regex Operator and Quantifier",
+			"name": "[Javascript] Regex Anchor/Operator and Quantifier",
 			"scope": ["string.regexp keyword.control.anchor", "string.regexp keyword.operator"],
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Javascript] User-Defined Constant",
+			"scope": ["variable.other.constant", "variable.other.constant.property"],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Javascript] Typeof Expression",
+			"scope": "keyword.operator.expression.typeof.js",
 			"settings": {
 				"foreground": "$blue_primary"
 			}

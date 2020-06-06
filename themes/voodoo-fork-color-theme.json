@@ -228,6 +228,16 @@
 			"settings": { "foreground": "#00ea8c" }
 		},
 		{
+			"name": "[Javascript] JSDoc @param",
+			"scope": "comment.block.documentation.js storage.type.class.jsdoc",
+			"settings": { "foreground": "#00ea8c99" }
+		},
+		{
+			"name": "[Javascript] JSDoc @param's {type}",
+			"scope": "comment.block.documentation.js entity.name.type.instance.jsdoc",
+			"settings": { "foreground": "#ef476f99" }
+		},
+		{
 			"name": "[Javascript] Support Type Primitive",
 			"scope": "support.type.primitive",
 			"settings": { "foreground": "#6e61ff" }
@@ -289,8 +299,18 @@
 			"settings": { "foreground": "#ef476f" }
 		},
 		{
-			"name": "[Javascript] Regex Operator and Quantifier",
+			"name": "[Javascript] Regex Anchor/Operator and Quantifier",
 			"scope": ["string.regexp keyword.control.anchor", "string.regexp keyword.operator"],
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[Javascript] User-Defined Constant",
+			"scope": ["variable.other.constant", "variable.other.constant.property"],
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Javascript] Typeof Expression",
+			"scope": "keyword.operator.expression.typeof.js",
 			"settings": { "foreground": "#6e61ff" }
 		},
 		{

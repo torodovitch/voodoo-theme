@@ -135,37 +135,6 @@
 			}
 		},
 		{
-			"name": "[Javascript] User-Defined Constant",
-			"scope": [
-        "variable.other.constant",
-        "variable.other.constant.property"
-      ],
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "[Javascript] Typeof",
-			"scope": "keyword.operator.expression.typeof.js",
-			"settings": {
-				"foreground": "#6e61ff"
-			}
-		},
-		{
-			"name": "[Javascript] @param Documentation",
-			"scope": "comment.block.documentation.js storage.type.class.jsdoc",
-			"settings": {
-				"foreground": "#00EA8C99"
-			}
-		},
-		{
-			"name": "[Javascript] Param Name Documentation",
-			"scope": "comment.block.documentation.js entity.name.type.instance.jsdoc",
-			"settings": {
-				"foreground": "#EF476F99"
-			}
-		},
-		{
 			"name": "[Javascript] Param Other Documentation",
 			"scope": "comment.block.documentation.js variable.other.jsdoc",
 			"settings": {
