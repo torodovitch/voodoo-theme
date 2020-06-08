@@ -194,6 +194,11 @@
 			"settings": { "foreground": "#00ea8c" }
 		},
 		{
+			"name": "[Haml] Tag Punctuation",
+			"scope": "text.haml punctuation.definition.tag",
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
 			"name": "[Javascript] Try Catch",
 			"scope": "keyword.control.trycatch",
 			"settings": { "foreground": "#ef476f" }
@@ -236,6 +241,11 @@
 			"name": "[Javascript] JSDoc @param's {type}",
 			"scope": "comment.block.documentation.js entity.name.type.instance.jsdoc",
 			"settings": { "foreground": "#ef476f99" }
+		},
+		{
+			"name": "[Javascript] JSDoc @param's {name} and Other",
+			"scope": "comment.block.documentation.js variable.other.jsdoc",
+			"settings": { "foreground": "#6e61ff99" }
 		},
 		{
 			"name": "[Javascript] Support Type Primitive",
@@ -283,6 +293,11 @@
 				"punctuation.definition.template-expression.end"
 			],
 			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Javascript] Object Definition",
+			"scope": "meta.object.type meta.definition.property",
+			"settings": { "foreground": "#f1d302" }
 		},
 		{
 			"name": "[Javascript] Regex",
@@ -359,6 +374,11 @@
 			"name": "[Shell] Comment",
 			"scope": "source.shell punctuation.definition.comment",
 			"settings": { "foreground": "#515587" }
+		},
+		{
+			"name": "[YAML] Name Tag",
+			"scope": "source.yaml entity.name.tag",
+			"settings": { "foreground": "#00ea8c" }
 		}
 	]
 }

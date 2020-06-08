@@ -127,22 +127,6 @@
 		},
 
 		{
-			"name": "[JavaScript] Object Definition",
-			"scope": "meta.object.type meta.definition.property",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#F1D302"
-			}
-		},
-		{
-			"name": "[Javascript] Param Other Documentation",
-			"scope": "comment.block.documentation.js variable.other.jsdoc",
-			"settings": {
-				"foreground": "#6e61ff99"
-			}
-		},
-
-		{
 			"name": "[React] HTML Tags",
 			"scope": [
 				"punctuation.definition.tag.begin",
@@ -330,21 +314,5 @@
 				"foreground": "#EF476F"
 			}
 		},
-		{
-			"name": "[HAML] Tag Punctuation",
-			"scope": "text.haml punctuation.definition.tag",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#6e61ff"
-			}
-		},
-		{
-			"name": "[YAML] Name Tags",
-			"scope": "source.yaml entity.name.tag",
-			"settings": {
-				"foreground": "#00EA8C"
-			}
-		},
-
 	]
 }

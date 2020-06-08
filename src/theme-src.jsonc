@@ -334,6 +334,15 @@
 			}
 		},
 
+		// Haml
+		{
+			"name": "[Haml] Tag Punctuation",
+			"scope": "text.haml punctuation.definition.tag",
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+
 		// Javascript
 		{
 			"name": "[Javascript] Try Catch",
@@ -398,10 +407,10 @@
 			}
 		},
 		{
-			"name": "[Javascript] JSDoc Other",
+			"name": "[Javascript] JSDoc @param's {name} and Other",
 			"scope": "comment.block.documentation.js variable.other.jsdoc",
 			"settings": {
-				"foreground": "$__highlight"
+				"foreground": "$blue_primary_highlight_secondary"
 			}
 		},
 		{
@@ -472,7 +481,7 @@
 			"name": "[Javascript] Object Definition",
 			"scope": "meta.object.type meta.definition.property",
 			"settings": {
-				"foreground": "$__highlight"
+				"foreground": "$yellow_accent"
 			}
 		},
 		{
@@ -577,6 +586,15 @@
 			"scope": "source.shell punctuation.definition.comment",
 			"settings": {
 				"foreground": "$blue_secondary_light"
+			}
+		},
+
+		// YAML.
+		{
+			"name": "[YAML] Name Tag",
+			"scope": "source.yaml entity.name.tag",
+			"settings": {
+				"foreground": "$green_accent"
 			}
 		}
 	]
