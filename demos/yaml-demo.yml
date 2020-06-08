@@ -1,0 +1,40 @@
+name: yaml-demo
+
+settings:
+  - ArgRequiredElseHelp
+  - VersionlessSubcommands
+
+subcommands:
+  - copy:
+      about: Recursively copy directories and files from the passed source to the passed destination.
+      args:
+        - from:
+            help: The source directory or file's path to execute the command from.
+            required: true
+        - to:
+            help: The command's destination path.
+            required: true
+  - list:
+      about: List the directories and files from the passed source which would be moved to the passed destination.
+      args:
+        - from:
+            help: The source directory or file's path to execute the command from.
+            required: true
+  - pack:
+      about: Recursively copy directories and files from the passed source to the passed destination while replacing duplicate files with packed files.
+      args:
+        - from:
+            help: The source directory or file's path to execute the command from.
+            required: true
+        - to:
+            help: The command's destination path.
+            required: true
+  - unpack:
+      about: Recursively copy directories and files from the passed source to the passed destination while replacing packed files with copies of the cached original.
+      args:
+        - from:
+            help: The source directory or file's path to execute the command from.
+            required: true
+        - to:
+            help: The command's destination path.
+            required: true

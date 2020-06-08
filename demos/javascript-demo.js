@@ -16,6 +16,12 @@ for (let index = 0; index < array.length; index++) {
 	other_array.push(element);
 }
 
+/**
+ * Updates the passed topbar state according to the passed main ui
+ * object's properties.
+ * @param {TopbarState} state the topbar state to update.
+ * @param {*} main the main ui object.
+ */
 export default class JsDemoObject {
 	normalizeHexColour = (colour) => {
 		if (/^#[a-f0-9]{3}$/gi.test(colour)) {
