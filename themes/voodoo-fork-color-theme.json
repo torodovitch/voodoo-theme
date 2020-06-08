@@ -194,9 +194,29 @@
 			"settings": { "foreground": "#00ea8c" }
 		},
 		{
+			"name": "[CSS/SCSS] Variable",
+			"scope": ["variable.scss", "variable.argument.css"],
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[CSS/SCSS] Additionnal Property Value",
+			"scope": ["meta.property-value.scss", "meta.property-value.css"],
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
 			"name": "[Haml] Tag Punctuation",
 			"scope": "text.haml punctuation.definition.tag",
 			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[HTML] Constant Character Entity",
+			"scope": "text.html.basic constant.character.entity.html",
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "[HTML] Constant Other Inline Data",
+			"scope": "text.html.basic constant.other.inline-data",
+			"settings": { "fontStyle": "italic", "foreground": "#ef476f" }
 		},
 		{
 			"name": "[Javascript] Try Catch",
@@ -326,6 +346,44 @@
 		{
 			"name": "[Javascript] Typeof Expression",
 			"scope": "keyword.operator.expression.typeof.js",
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[React] HTML Tags",
+			"scope": ["punctuation.definition.tag.begin", "punctuation.definition.tag.end"],
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[React] React Component Tags",
+			"scope": "support.class.component",
+			"settings": { "foreground": "#00ea8c" }
+		},
+		{
+			"name": "[Ruby] Regex",
+			"scope": "source.ruby string.regexp.classic",
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "[Ruby] Regex Punctuation",
+			"scope": "source.ruby string.regexp.classic punctuation.definition.string",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Ruby] Variable Definition",
+			"scope": "source.ruby punctuation.definition.variable",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Ruby] Assignment Operator",
+			"scope": [
+				"source.ruby keyword.operator.assignment.augmented",
+				"source.ruby keyword.operator.logical"
+			],
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Ruby] Keyword Control",
+			"scope": ["source.ruby keyword.control", "source.ruby keyword.other.special-method"],
 			"settings": { "foreground": "#6e61ff" }
 		},
 		{

@@ -334,12 +334,45 @@
 			}
 		},
 
+		// CSS/SCSS
+		{
+			"name": "[CSS/SCSS] Variable",
+			"scope": ["variable.scss", "variable.argument.css"],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[CSS/SCSS] Additionnal Property Value",
+			"scope": ["meta.property-value.scss", "meta.property-value.css"],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+
 		// Haml
 		{
 			"name": "[Haml] Tag Punctuation",
 			"scope": "text.haml punctuation.definition.tag",
 			"settings": {
 				"foreground": "$blue_primary"
+			}
+		},
+
+		// HTML
+		{
+			"name": "[HTML] Constant Character Entity",
+			"scope": "text.html.basic constant.character.entity.html",
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "[HTML] Constant Other Inline Data",
+			"scope": "text.html.basic constant.other.inline-data",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$red_accent"
 			}
 		},
 
@@ -519,6 +552,62 @@
 		{
 			"name": "[Javascript] Typeof Expression",
 			"scope": "keyword.operator.expression.typeof.js",
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+
+		// React
+		{
+			"name": "[React] HTML Tags",
+			"scope": ["punctuation.definition.tag.begin", "punctuation.definition.tag.end"],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[React] React Component Tags",
+			"scope": "support.class.component",
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+
+		// Ruby
+		{
+			"name": "[Ruby] Regex",
+			"scope": "source.ruby string.regexp.classic",
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "[Ruby] Regex Punctuation",
+			"scope": "source.ruby string.regexp.classic punctuation.definition.string",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Ruby] Variable Definition",
+			"scope": "source.ruby punctuation.definition.variable",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Ruby] Assignment Operator",
+			"scope": [
+				"source.ruby keyword.operator.assignment.augmented",
+				"source.ruby keyword.operator.logical"
+			],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Ruby] Keyword Control",
+			"scope": ["source.ruby keyword.control", "source.ruby keyword.other.special-method"],
 			"settings": {
 				"foreground": "$blue_primary"
 			}

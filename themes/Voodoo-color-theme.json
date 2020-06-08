@@ -105,46 +105,7 @@
 		},
 
 
-		{
-			"name": "[CSS/SCSS] Variable",
-			"scope": [
-				"variable.scss",
-				"variable.argument.css"
-			],
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "[CSS/SCSS] Property Value",
-			"scope": [
-				"meta.property-value.css",
-				"meta.property-value.scss"
-			],
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
 
-		{
-			"name": "[React] HTML Tags",
-			"scope": [
-				"punctuation.definition.tag.begin",
-				"punctuation.definition.tag.end"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "[React] React Component Tags",
-			"scope":"support.class.component",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#00EA8C"
-			}
-		},
 
 		{
 			"name": "[TypeScript] Export/Import",
@@ -250,67 +211,6 @@
 				"source.tsx punctuation.definition.template-expression.end"
 			],
 			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-
-		{
-			"name": "[HTML] Constant Character Entity",
-			"scope": "text.html.basic constant.character.entity.html",
-			"settings": {
-				"foreground": "#F1D302"
-			}
-		},
-		{
-			"name": "[HTML] Constant Other Inline-Data",
-			"scope": "text.html.basic constant.other.inline-data",
-			"settings": {
-				"foreground": "#EF476F",
-				"fontStyle": "italic"
-			}
-		},
-
-		{
-			"name": "Ruby Regex",
-			"scope": "source.ruby string.regexp.classic",
-			"settings": {
-				"foreground": "#F1D302"
-			}
-		},
-		{
-			"name": "Ruby Regex Punctuation",
-			"scope": "source.ruby string.regexp.classic punctuation.definition.string",
-			"settings": {
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "[Ruby] KeyWord Control",
-			"scope": [
-				"source.ruby keyword.control",
-				"source.ruby keyword.other.special-method"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#6e61ff"
-			}
-		},
-		{
-			"name": "[Ruby] Variable Definition",
-			"scope": "source.ruby punctuation.definition.variable",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#EF476F"
-			}
-		},
-		{
-			"name": "[Ruby] Assignment Operator",
-			"scope": [
-				"source.ruby keyword.operator.assignment.augmented",
-				"source.ruby keyword.operator.logical"
-			],
-			"settings": {
-				"fontStyle": "",
 				"foreground": "#EF476F"
 			}
 		},
