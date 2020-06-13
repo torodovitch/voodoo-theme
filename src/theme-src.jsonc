@@ -333,6 +333,13 @@
 				"foreground": "$green_accent"
 			}
 		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "$foreground"
+			}
+		},
 
 		// CSS/SCSS
 		{
@@ -347,6 +354,37 @@
 			"scope": ["meta.property-value.scss", "meta.property-value.css"],
 			"settings": {
 				"foreground": "$red_accent"
+			}
+		},
+
+		// Diff
+		{
+			"name": "[Diff] Header",
+			"scope": ["meta.diff", "meta.diff.header"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "$foreground_secondary"
+			}
+		},
+		{
+			"name": "[Diff] Changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Diff] Deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Diff] Inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "$green_accent"
 			}
 		},
 
@@ -557,6 +595,50 @@
 			}
 		},
 
+		// Markdown
+		{
+			"name": "[Markdown] Quote/Bold",
+			"scope": ["markup.quote", "markup.bold"],
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Markdown] Styling",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "[Markdown] Punctuation",
+			"scope": ["beginning.punctuation.definition.list.markdown", "meta.separator.markdown"],
+			"settings": {
+				"foreground": "$blue_secondary_light"
+			}
+		},
+		{
+			"name": "[Markdown] Heading",
+			"scope": "markup.heading.markdown",
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+		{
+			"name": "[Markdown] Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Markdown] Setext Header",
+			"scope": "markup.heading.setext",
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+
 		// React
 		{
 			"name": "[React] HTML Tags",
@@ -678,7 +760,115 @@
 			}
 		},
 
-		// YAML.
+		// Typescript
+		{
+			"name": "[Typescript] Export/Import",
+			"scope": [
+				"source.ts keyword.control.export.ts",
+				"source.ts keyword.control.import.ts",
+				"source.ts meta.import.ts",
+				"source.tsx keyword.control.export.tsx",
+				"source.tsx keyword.control.import.tsx",
+				"source.tsx meta.import.tsx"
+			],
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Typescript] Import Variable",
+			"scope": [
+				"source.ts meta.import.ts variable.other.readwrite.alias.ts",
+				"source.ts meta.import-equals.external.ts variable.other.readwrite.alias.ts",
+				"source.tsx meta.import.tsx variable.other.readwrite.alias.tsx",
+				"source.tsx meta.import-equals.external.tsx variable.other.readwrite.alias.tsx"
+			],
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+		{
+			"name": "[Typescript] Punctuation and Comparison",
+			"scope": [
+				"source.ts keyword.operator.logical.ts",
+				"source.ts keyword.operator.relational.ts",
+				"source.ts keyword.operator.comparison.ts",
+				"source.tsx keyword.operator.logical.tsx",
+				"source.tsx keyword.operator.relational.tsx",
+				"source.tsx keyword.operator.comparison.tsx"
+			],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Typescript] If Else, Switch, Return",
+			"scope": [
+				"source.ts keyword.control.conditional.ts",
+				"source.ts keyword.control.switch.ts",
+				"source.ts keyword.control.flow.ts",
+				"source.tsx keyword.control.conditional.tsx",
+				"source.tsx keyword.control.switch.tsx",
+				"source.tsx keyword.control.flow.tsx"
+			],
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Typescript] Meta Object-Literal Key",
+			"scope": [
+				"source.ts meta.object-literal.key.ts",
+				"source.tsx meta.object-literal.key.tsx"
+			],
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+		{
+			"name": "[Typescript] Typeof Expression",
+			"scope": [
+				"source.ts meta.type.annotation.ts keyword.operator.expression.typeof.ts",
+				"source.tsx meta.type.annotation.tsx keyword.operator.expression.typeof.tsx"
+			],
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Typescript] Type Definition Property",
+			"scope": [
+				"source.ts meta.definition.property.ts",
+				"source.tsx meta.definition.property.tsx"
+			],
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "[Typescript] Require",
+			"scope": [
+				"source.ts keyword.control.require.ts",
+				"source.tsx keyword.control.require.tsx"
+			],
+			"settings": {
+				"foreground": "$yellow_accent"
+			}
+		},
+		{
+			"name": "[Typescript] String Interpolation Punctuation",
+			"scope": [
+				"source.ts punctuation.definition.template-expression.begin",
+				"source.ts punctuation.definition.template-expression.end",
+				"source.tsx punctuation.definition.template-expression.begin",
+				"source.tsx punctuation.definition.template-expression.end"
+			],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
+
+		// YAML
 		{
 			"name": "[YAML] Name Tag",
 			"scope": "source.yaml entity.name.tag",

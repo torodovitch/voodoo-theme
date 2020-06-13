@@ -193,6 +193,7 @@
 			"scope": ["support.type", "support.class"],
 			"settings": { "foreground": "#00ea8c" }
 		},
+		{ "name": "Invalid", "scope": "invalid", "settings": { "foreground": "#d3d4d9" } },
 		{
 			"name": "[CSS/SCSS] Variable",
 			"scope": ["variable.scss", "variable.argument.css"],
@@ -202,6 +203,26 @@
 			"name": "[CSS/SCSS] Additionnal Property Value",
 			"scope": ["meta.property-value.scss", "meta.property-value.css"],
 			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Diff] Header",
+			"scope": ["meta.diff", "meta.diff.header"],
+			"settings": { "fontStyle": "italic", "foreground": "#e5e9f0" }
+		},
+		{
+			"name": "[Diff] Changed",
+			"scope": "markup.changed",
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[Diff] Deleted",
+			"scope": "markup.deleted",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Diff] Inserted",
+			"scope": "markup.inserted",
+			"settings": { "foreground": "#00ea8c" }
 		},
 		{
 			"name": "[Haml] Tag Punctuation",
@@ -349,6 +370,36 @@
 			"settings": { "foreground": "#6e61ff" }
 		},
 		{
+			"name": "[Markdown] Quote/Bold",
+			"scope": ["markup.quote", "markup.bold"],
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[Markdown] Styling",
+			"scope": "markup.italic",
+			"settings": { "fontStyle": "italic" }
+		},
+		{
+			"name": "[Markdown] Punctuation",
+			"scope": ["beginning.punctuation.definition.list.markdown", "meta.separator.markdown"],
+			"settings": { "foreground": "#515587" }
+		},
+		{
+			"name": "[Markdown] Heading",
+			"scope": "markup.heading.markdown",
+			"settings": { "foreground": "#00ea8c" }
+		},
+		{
+			"name": "[Markdown] Inline",
+			"scope": "markup.inline.raw",
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Markdown] Setext Header",
+			"scope": "markup.heading.setext",
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
 			"name": "[React] HTML Tags",
 			"scope": ["punctuation.definition.tag.begin", "punctuation.definition.tag.end"],
 			"settings": { "foreground": "#ef476f" }
@@ -432,6 +483,94 @@
 			"name": "[Shell] Comment",
 			"scope": "source.shell punctuation.definition.comment",
 			"settings": { "foreground": "#515587" }
+		},
+		{
+			"name": "[Typescript] Export/Import",
+			"scope": [
+				"source.ts keyword.control.export.ts",
+				"source.ts keyword.control.import.ts",
+				"source.ts meta.import.ts",
+				"source.tsx keyword.control.export.tsx",
+				"source.tsx keyword.control.import.tsx",
+				"source.tsx meta.import.tsx"
+			],
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[Typescript] Import Variable",
+			"scope": [
+				"source.ts meta.import.ts variable.other.readwrite.alias.ts",
+				"source.ts meta.import-equals.external.ts variable.other.readwrite.alias.ts",
+				"source.tsx meta.import.tsx variable.other.readwrite.alias.tsx",
+				"source.tsx meta.import-equals.external.tsx variable.other.readwrite.alias.tsx"
+			],
+			"settings": { "foreground": "#00ea8c" }
+		},
+		{
+			"name": "[Typescript] Punctuation and Comparison",
+			"scope": [
+				"source.ts keyword.operator.logical.ts",
+				"source.ts keyword.operator.relational.ts",
+				"source.ts keyword.operator.comparison.ts",
+				"source.tsx keyword.operator.logical.tsx",
+				"source.tsx keyword.operator.relational.tsx",
+				"source.tsx keyword.operator.comparison.tsx"
+			],
+			"settings": { "foreground": "#ef476f" }
+		},
+		{
+			"name": "[Typescript] If Else, Switch, Return",
+			"scope": [
+				"source.ts keyword.control.conditional.ts",
+				"source.ts keyword.control.switch.ts",
+				"source.ts keyword.control.flow.ts",
+				"source.tsx keyword.control.conditional.tsx",
+				"source.tsx keyword.control.switch.tsx",
+				"source.tsx keyword.control.flow.tsx"
+			],
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[Typescript] Meta Object-Literal Key",
+			"scope": [
+				"source.ts meta.object-literal.key.ts",
+				"source.tsx meta.object-literal.key.tsx"
+			],
+			"settings": { "foreground": "#00ea8c" }
+		},
+		{
+			"name": "[Typescript] Typeof Expression",
+			"scope": [
+				"source.ts meta.type.annotation.ts keyword.operator.expression.typeof.ts",
+				"source.tsx meta.type.annotation.tsx keyword.operator.expression.typeof.tsx"
+			],
+			"settings": { "foreground": "#6e61ff" }
+		},
+		{
+			"name": "[Typescript] Type Definition Property",
+			"scope": [
+				"source.ts meta.definition.property.ts",
+				"source.tsx meta.definition.property.tsx"
+			],
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "[Typescript] Require",
+			"scope": [
+				"source.ts keyword.control.require.ts",
+				"source.tsx keyword.control.require.tsx"
+			],
+			"settings": { "foreground": "#f1d302" }
+		},
+		{
+			"name": "[Typescript] String Interpolation Punctuation",
+			"scope": [
+				"source.ts punctuation.definition.template-expression.begin",
+				"source.ts punctuation.definition.template-expression.end",
+				"source.tsx punctuation.definition.template-expression.begin",
+				"source.tsx punctuation.definition.template-expression.end"
+			],
+			"settings": { "foreground": "#ef476f" }
 		},
 		{
 			"name": "[YAML] Name Tag",
