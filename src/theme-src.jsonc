@@ -13,7 +13,9 @@
 		"$blue_secondary_background": "#43477066",
 		"$blue_secondary_light": "#515587",
 		"$blue_secondary_lighter": "#525889",
+		"$blue_secondary_darker": "#51557D",
 		"$blue_tertiary": "#25273e",
+		"$blue_highlight_opaque": "#3535ff",
 		"$blue_highlight": "#3535ffbb",
 		"$blue_highlight_secondary": "#3535ffee",
 		"$blue_highlight_tertiary": "#3535ffaa",
@@ -55,6 +57,12 @@
 		"sideBar.background": "$darker_blue_background",
 		"sideBarSectionHeader.background": "$darker_blue_background",
 
+		// Minimap
+		"minimap.findMatchHighlight": "$blue_highlight_opaque",
+		"minimap.selectionHighlight": "$lime_accent",
+		"minimap.errorHighlight": "$red_accent",
+		"minimap.warningHighlight": "$yellow_accent",
+
 		// Base Colors
 		"focusBorder": "$blue_secondary",
 		"errorForeground": "$lime_accent",
@@ -75,7 +83,7 @@
 		// Input Control
 		"input.background": "$blue_secondary",
 		"input.border": "$blue_secondary",
-		"input.foreground": "$foreground",
+		"input.foreground": "$white",
 		"inputOption.activeBorder": "$lime_accent",
 
 		// Scrollbar Control
@@ -86,13 +94,15 @@
 		// Lists and Trees
 		"list.activeSelectionBackground": "$lime_accent",
 		"list.activeSelectionForeground": "$dark_blue_background",
-		"list.focusBackground": "$lime_accent_focus",
+		"list.focusBackground": "$darker_blue_background",
 		"list.focusForeground": "$dark_blue_background",
 		"list.highlightForeground": "$blue_primary",
 		"list.hoverBackground": "$black_hover",
 		"list.inactiveSelectionBackground": "$black_inactive",
+		"list.inactiveSelectionForeground": "$lime_accent",
 		"list.errorForeground": "$red_accent",
 		"list.warningForeground": "$yellow_accent",
+		"tree.indentGuidesStroke": "$blue_secondary",
 
 		// Editor Groups and Tabs
 		"editorGroup.border": "$blue_secondary",
@@ -127,6 +137,7 @@
 		"editorCodeLens.foreground": "$blue_secondary_lighter",
 		"editorBracketMatch.background": "$blue_highlight_background",
 		"editorBracketMatch.border": "$white",
+		"editor.foldBackground": "$dark_blue_background_hover",
 		"editorOverviewRuler.border": "$blue_secondary_light",
 		"editorOverviewRuler.findMatchForeground": "$blue_highlight_tertiary",
 		"editorOverviewRuler.modifiedForeground": "$blue_primary_highlight",
@@ -152,6 +163,7 @@
 		"editorSuggestWidget.border": "$dark_blue_background",
 		"editorSuggestWidget.highlightForeground": "$blue_primary",
 		"editorSuggestWidget.selectedBackground": "$blue_tertiary",
+		"editorHoverWidget.foreground": "$foreground",
 		"editorHoverWidget.background": "$dark_blue_background",
 		"editorHoverWidget.border": "$dark_blue_background",
 		"editorMarkerNavigation.background": "$blue_secondary_lighter",
@@ -220,7 +232,10 @@
 		"gitDecoration.deletedResourceForeground": "$red_accent",
 		"gitDecoration.untrackedResourceForeground": "$green_accent",
 		"gitDecoration.ignoredResourceForeground": "$blue_secondary_lighter",
-		"gitDecoration.conflictingResourceForeground": "$yellow_accent"
+		"gitDecoration.conflictingResourceForeground": "$yellow_accent",
+
+		// Extensions
+		"gitlens.trailingLineForegroundColor": "$blue_secondary_darker"
 	},
 	"tokenColors": [
 		// Standard Tokens
@@ -263,6 +278,13 @@
 			}
 		},
 		{
+			"name": "Argument",
+			"scope": "meta.function-call.arguments variable.parameter.function-call",
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+		{
 			"name": "Built-in Constants",
 			"scope": "constant.language",
 			"settings": {
@@ -280,6 +302,13 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "Keyword New",
+			"scope": "keyword.operator.new",
+			"settings": {
+				"foreground": "$yellow_accent"
 			}
 		},
 		{
@@ -307,7 +336,7 @@
 		},
 		{
 			"name": "Function Names",
-			"scope": "entity.name.function",
+			"scope": ["entity.name.function", "meta.function-call.generic"],
 			"settings": {
 				"foreground": "$yellow_accent"
 			}
@@ -385,6 +414,29 @@
 			"scope": "markup.inserted",
 			"settings": {
 				"foreground": "$green_accent"
+			}
+		},
+
+		// GraphQL
+		{
+			"name": "[GraphQL] Keyword",
+			"scope": ["keyword.fragment.graphql", "keyword.on.graphql"],
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[GraphQL] Variable",
+			"scope": "variable.graphql",
+			"settings": {
+				"foreground": "$green_accent"
+			}
+		},
+		{
+			"name": "[GraphQL] Variable Parameter",
+			"scope": "variable.parameter.graphql",
+			"settings": {
+				"foreground": "$yellow_accent"
 			}
 		},
 
@@ -493,7 +545,12 @@
 		},
 		{
 			"name": "[Javascript] Default, Export and Import",
-			"scope": ["keyword.control.default", "keyword.control.export", "meta.import"],
+			"scope": [
+				"keyword.control.default",
+				"keyword.control.export",
+				"keyword.control.import",
+				"meta.import"
+			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "$blue_primary"
@@ -588,8 +645,12 @@
 			}
 		},
 		{
-			"name": "[Javascript] Typeof Expression",
-			"scope": "keyword.operator.expression.typeof.js",
+			"name": "[Javascript] Keyword Operator",
+			"scope": [
+				"keyword.operator.expression.typeof",
+				"keyword.operator.spread",
+				"keyword.operator.rest"
+			],
 			"settings": {
 				"foreground": "$blue_primary"
 			}
@@ -625,10 +686,24 @@
 			}
 		},
 		{
-			"name": "[Markdown] Inline",
-			"scope": "markup.inline.raw",
+			"name": "[Markdown] Code",
+			"scope": ["markup.inline.raw", "markup.fenced_code.block"],
 			"settings": {
 				"foreground": "$red_accent"
+			}
+		},
+		{
+			"name": "[Markdown] Link Brackets",
+			"scope": "meta.link.inline.markdown",
+			"settings": {
+				"foreground": "$blue_primary"
+			}
+		},
+		{
+			"name": "[Markdown] Link",
+			"scope": "meta.link.inline.markdown markup.underline.link.markdown",
+			"settings": {
+				"foreground": "$lime_accent"
 			}
 		},
 		{
@@ -636,6 +711,15 @@
 			"scope": "markup.heading.setext",
 			"settings": {
 				"foreground": "$yellow_accent"
+			}
+		},
+
+		// Python
+		{
+			"name": "[Python] Import",
+			"scope": "keyword.codetag.notation",
+			"settings": {
+				"foreground": "$green_accent"
 			}
 		},
 
@@ -867,6 +951,13 @@
 				"foreground": "$red_accent"
 			}
 		},
+		{
+			"name": "[Typescript] Type Annotation",
+			"scope": ["keyword.operator.optional", "keyword.operator.definiteassignment"],
+			"settings": {
+				"foreground": "$red_accent"
+			}
+		},
 
 		// YAML
 		{
@@ -874,6 +965,13 @@
 			"scope": "source.yaml entity.name.tag",
 			"settings": {
 				"foreground": "$green_accent"
+			}
+		},
+		{
+			"name": "[YAML] Generic",
+			"scope": "source.yaml string.unquoted.plain.out.yaml",
+			"settings": {
+				"foreground": "$foreground"
 			}
 		}
 	]

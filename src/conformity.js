@@ -5,9 +5,8 @@ const stripJsonComments = require("./strip-json-comments");
 
 const TESTED_FILE = "themes/voodoo-fork-color-theme.json";
 const REFERENCE_FILE =
-	"https://raw.githubusercontent.com/liamsheppard/voodoo-theme/4d3fda8e398406e8ac4df96bd252f776b2b4fc30/themes/Voodoo-color-theme.json";
-// fork base: 	"https://raw.githubusercontent.com/liamsheppard/voodoo-theme/4d3fda8e398406e8ac4df96bd252f776b2b4fc30/themes/Voodoo-color-theme.json";
-// master: 		"https://raw.githubusercontent.com/liamsheppard/voodoo-theme/master/themes/Voodoo-color-theme.json";
+	"https://raw.githubusercontent.com/liamsheppard/voodoo-theme/master/themes/Voodoo-color-theme.json";
+// master: "https://raw.githubusercontent.com/liamsheppard/voodoo-theme/master/themes/Voodoo-color-theme.json";
 
 const resolveFilePath = (file) => {
 	try {
